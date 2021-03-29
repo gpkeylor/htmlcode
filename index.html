@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Inventory Page</title>
+    <link rel ="stylesheet" href="../HTMLmockup/resources/css/index.css">
+</head>
+<body>
+    <!--Nav Bar-->
+    <nav class ="navbar">
+        <div class="banner">
+        <ul>
+            <li class "a"><a href="">New Transaction</a></li>
+            <li class "a"><a href="">Reports</a></li>
+            <li class "a"><a href="">Admins</a></li>
+            <li class "a"><a href="">Logout</a></li>
+        </ul>
+        </div>  
+    </nav>
+
+    <!-- Banner Section-->
+    <div class ="greetingbanner">
+        <h1>Please enter Employee ID to begin</h1>
+    </div>
+    <div class="employeeinput">
+        <form action ="#">
+            <input type="text" placeholder="Employee ID" class="mytext">
+            <button type="submit"> Submit</button>
+        </form>
+            <div id="inline"> 
+            <div class="one">
+                <h1> Borrower Info</h1>
+                <p> Name :</p>
+                <label id="lblName"></label><br>
+                <input id="lfname" name="fname" type="text" /><br>
+                <p> Employee ID :</p>
+                <label id="lblEmployeeID"></label> <br>
+                <input id="lEmID" name="EmID" type="text" /><br>
+            </div> 
+            <div class="two">
+                <h1> Equipment</h1>
+                <p>Please select what you would like to checkout:</p>
+                <div class="list">
+                <input type="radio" id="laptop" name="equipment" value="laptop">
+                <label for="laptop">Laptop</label><br>
+                <input type="radio" id="ethernetcable" name="equipment" value="ethernetcable">
+                <label for="ethernetcable">Ethernet Cable</label><br>
+                <input type="radio" id="digitalcamera" name="equipment" value="digitalcamera">
+                <label for="other">Digital Camera</label><br>
+                <input type="radio" id="monitor" name="equipment" value="monitor">
+                <label for="other">Monitor</label><br>
+                <input type="radio" id="headphones" name="equipment" value="headphones">
+                <label for="other">Headphones</label><br>
+            </div>
+
+            </div> 
+            <div class="three"> 
+                <h1> Comments</h1>
+                <input type="text" placeholder="" class="comments">
+                
+            </div>
+            </div>
+            <div class="submitbutton">
+                <button type="submit"> Submit</button>
+            </div>
+            
+   
+</body>
+</html>
